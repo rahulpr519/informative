@@ -11,3 +11,8 @@ to fix "Head detached from prev commit(master)"
 7. git checkout master
 8. git branch -d temp
 9. git push origin master
+
+
+to "change author"
+
+git commit --amend --author="Author Name <email@address.com>" --no-edit
